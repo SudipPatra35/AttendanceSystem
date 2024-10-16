@@ -1,12 +1,13 @@
 # Attendance System using Face Recognition with Realtime Database
 
 **Overview**
+
 This project implements an Attendance System using Face Recognition technology integrated with a Realtime Database (e.g., Firebase). The system is designed to automate attendance tracking by detecting and recognizing faces through a live webcam feed. 
 The recognized faces are matched with pre-encoded facial data, and attendance is marked in a database. Additionally, employee details such as attendance count, email, phone number, and more are displayed on the user interface.
 
 **1. Features**
 
-    **Face Recognition:** Utilizes the face_recognition library to detect and recognize faces.
+   ** Face Recognition:** Utilizes the face_recognition library to detect and recognize faces.
   
     **Real-time Database Integration:** Uses Firebase's Realtime Database to store employee details and attendance records.
   
