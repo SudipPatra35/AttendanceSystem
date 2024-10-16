@@ -7,7 +7,7 @@ The recognized faces are matched with pre-encoded facial data, and attendance is
 
 **1. Features**
 
-   ** Face Recognition:** Utilizes the face_recognition library to detect and recognize faces.
+    ** Face Recognition: ** Utilizes the face_recognition library to detect and recognize faces.
   
     **Real-time Database Integration:** Uses Firebase's Realtime Database to store employee details and attendance records.
   
