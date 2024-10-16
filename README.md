@@ -3,21 +3,34 @@ Attendance System using Face Recognition with Realtime Database
 **Overview**
 This project implements an Attendance System using Face Recognition technology integrated with a Realtime Database (e.g., Firebase). The system is designed to automate attendance tracking by detecting and recognizing faces through a live webcam feed. The recognized faces are matched with pre-encoded facial data, and attendance is marked in a database. Additionally, employee details such as attendance count, email, phone number, and more are displayed on the user interface.
 
-**Features**
-Face Recognition: Utilizes the face_recognition library to detect and recognize faces.
-Real-time Database Integration: Uses Firebase's Realtime Database to store employee details and attendance records.
-Employee Details: Displays information such as total attendance, name, email, phone number, and more for each recognized face.
-Automatic Attendance Logging: Marks attendance in real time when an employee's face is detected.
-Scalable & Secure: Secure integration with Firebase for real-time updates and cloud-based storage.
-Image Uploading: Supports uploading employee images to Firebase Storage for recognition purposes.
+**1. Features**
 
-**Technologies Used**
-Python: Core language for the project.
-OpenCV: For image processing and handling webcam feeds.
-face_recognition: For face detection and recognition.
-Firebase Realtime Database: To store employee data and attendance records.
-Firebase Storage: For storing employee images.
-Git: For version control and collaboration.
+**Face Recognition:** Utilizes the face_recognition library to detect and recognize faces.
+
+**Real-time Database Integration:** Uses Firebase's Realtime Database to store employee details and attendance records.
+
+**Employee Details:** Displays information such as total attendance, name, email, phone number, and more for each recognized face.
+
+**Automatic Attendance Logging:** Marks attendance in real time when an employee's face is detected.
+
+**Scalable & Secure:** Secure integration with Firebase for real-time updates and cloud-based storage.
+
+**Image Uploading:**Supports uploading employee images to Firebase Storage for recognition purposes.
+
+**2. Technologies Used**
+
+**Python:** Core language for the project.
+
+**OpenCV:** For image processing and handling webcam feeds.
+
+**face_recognition:** For face detection and recognition.
+
+**Firebase Realtime Database:** To store employee data and attendance records.
+
+**Firebase Storage:** For storing employee images.
+
+**Git: **For version control and collaboration.
+
 
 **Prerequisites**
 Make sure you have the following installed:
