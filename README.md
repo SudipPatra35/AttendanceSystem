@@ -7,46 +7,47 @@ The recognized faces are matched with pre-encoded facial data, and attendance is
 
 **1. Features**
 
-    ** Face Recognition: ** Utilizes the face_recognition library to detect and recognize faces.
+**Face Recognition:** Utilizes the face_recognition library to detect and recognize faces.
   
-    **Real-time Database Integration:** Uses Firebase's Realtime Database to store employee details and attendance records.
+**Real-time Database Integration:** Uses Firebase's Realtime Database to store employee details and attendance records.
   
-    **Employee Details:** Displays information such as total attendance, name, email, phone number, and more for each recognized face.
+**Employee Details:** Displays information such as total attendance, name, email, phone number, and more for each recognized face.
   
-    **Automatic Attendance Logging:** Marks attendance in real time when an employee's face is detected.
+**Automatic Attendance Logging:** Marks attendance in real time when an employee's face is detected.
   
-    **Scalable & Secure:** Secure integration with Firebase for real-time updates and cloud-based storage.
+**Scalable & Secure:** Secure integration with Firebase for real-time updates and cloud-based storage.
   
-    **Image Uploading:** Supports uploading employee images to Firebase Storage for recognition purposes.
+**Image Uploading:** Supports uploading employee images to Firebase Storage for recognition purposes.
+
 
 **2. Technologies Used**
 
-    **i. Python:** Core language for the project.
+    i. Python: Core language for the project.
 
-    **ii. OpenCV:** For image processing and handling webcam feeds.
+    ii. OpenCV: For image processing and handling webcam feeds.
 
-    **iii. face_recognition:** For face detection and recognition.
+    iii. face_recognition: For face detection and recognition.
 
-    **iv. Firebase Realtime Database:** To store employee data and attendance records.
+    iv. Firebase Realtime Database: To store employee data and attendance records.
 
-    **v. Firebase Storage:** For storing employee images.
+    v. Firebase Storage: For storing employee images.
 
-    **vi. Git:** For version control and collaboration.
+    vi. Git: For version control and collaboration.
 
 
 **3. Prerequisites**
 
 Make sure you have the following installed:
 
-    **i. Python 3.x**
+    i. Python 3.x
 
-    **ii. OpenCV (cv2)**
+    ii. OpenCV (cv2)
 
-    **iii. face_recognition library**
+    iii. face_recognition library
   
-    **iv. Firebase Admin SDK**
+    iv. Firebase Admin SDK
 
-    **v. Git**
+    v. Git
 
 
 **4. How It Works**
