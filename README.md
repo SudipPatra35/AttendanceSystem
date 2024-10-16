@@ -15,7 +15,7 @@ This project implements an Attendance System using Face Recognition technology i
 
 **Scalable & Secure:** Secure integration with Firebase for real-time updates and cloud-based storage.
 
-**Image Uploading:**Supports uploading employee images to Firebase Storage for recognition purposes.
+**Image Uploading:** Supports uploading employee images to Firebase Storage for recognition purposes.
 
 **2. Technologies Used**
 
@@ -32,23 +32,34 @@ This project implements an Attendance System using Face Recognition technology i
 **Git: **For version control and collaboration.
 
 
-**Prerequisites**
+**3. Prerequisites**
 Make sure you have the following installed:
-Python 3.x
-OpenCV (cv2)
-face_recognition library
-Firebase Admin SDK
-Git
+
+**i. Python 3.x**
+
+**ii. OpenCV (cv2)**
+
+**iii. face_recognition library**
+
+**iv. Firebase Admin SDK**
+
+**v. Git**
+
 
 **How It Works**
 
 **1. Face Detection and Recognition**
+
 The system uses OpenCV to capture frames from the webcam.
 Detected faces are encoded and compared with pre-stored facial encodings.
 If a match is found, the employee's details are fetched from Firebase.
+
 **2. Attendance Marking**
+
 When an employee's face is recognized, their attendance is automatically marked in the Realtime Database.
 The employee's attendance count is updated, and their details are displayed.
+
 **3. UI Display**
+
 A custom user interface is used to show the employee’s name, attendance count, and other details.
 The system can display an image of the employee alongside their details.
